@@ -1,0 +1,33 @@
+.navbar {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 50px;
+	width: 50%;
+	min-width: 400px;
+}
+
+.navbar-left {
+	float: left;
+}
+
+.navbar-right {
+	float: right;
+}
+
+.navbar-sub {
+	margin: 0px;
+	list-style: outside none none;
+}
+.navbar-sub > li {
+	float: left;
+	padding: 13px;
+	transition: 0.25s;
+}
+
+.active {
+	background-color: #EEEEEE;
+}
+
+.navbar-sub > li:hover{
+	background-color: #EEEEEE;
+}
