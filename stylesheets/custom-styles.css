@@ -31,3 +31,16 @@
 .navbar-sub > li:hover{
 	background-color: #EEEEEE;
 }
+
+.page-header.small {
+	padding: 1rem;
+}
+
+.small > .container > .project-name {
+	text-align: left;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+}
