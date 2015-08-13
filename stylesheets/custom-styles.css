@@ -3,7 +3,7 @@
 	margin-right: auto;
 	min-height: 50px;
 	width: 50%;
-	min-width: 400px;
+	min-width: 527px;
 }
 
 .navbar-left {
@@ -16,6 +16,7 @@
 
 .navbar-sub {
 	margin: 0px;
+	padding: 0px;
 	list-style: outside none none;
 }
 .navbar-sub > li {
@@ -43,4 +44,20 @@
 .container {
 	margin: auto;
 	width: 50%;
+}
+
+img.left {
+	float: left;
+}
+
+img.right {
+	float: right;
+}
+
+.site-footer {
+	clear: both;
+}
+
+.main-content {
+	padding: 2rem;
 }
