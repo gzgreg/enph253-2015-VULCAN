@@ -35,7 +35,14 @@
         <div class="body-text">
             <img src="img/Solidworks%20Pictures/Arm%20render.JPG" class="right" style="width: 300px;">
             <p>The arm is the most complicated mechanical system on our robot. Rather than using multiple simple arms to rescue the stuffed animals, we wanted 
-			to make a single arm with more versitility. This meant buliding an arm with 3 degrees of freedom. </p>
+			to make a single arm with more versitility. This meant buliding an arm with 3 degrees of freedom, one about a vertical axis and two about horizontal axes.
+			The vertical axis rotation was enabled by mounting the arm on a lazy susan bearing and rotating it with a motor attached to the base mount turning the arm using
+			an internal spur gear. A potentiometer encoded the rotation allowing the microcontroller to maniulate it's position with PID control. The second motion rotated
+			the first joint of the arm using a worm gear powered by another DC motor through a gear assembly and again encoded using a potentiometer. The third motion moved 
+			the end of up and down using an RC servo motor. This was simpler to use as it did not require PID control, only an analog angle signal. The end of the arm had a 
+			pickup mechanism mounted to it to pick up the stuffed animals by way of the rare earth magnets mounted on top of them. This used a steel plate with an aluminum 
+			plate hanging freely underneath, when the mechanism came into contact with a magnet it would push the aluminum plate into the steel plate and activate a microswitch.
+			small RC servos could then push the aluminum plate back to release the magnet.</p>
         </div>
 
       <footer class="site-footer">
