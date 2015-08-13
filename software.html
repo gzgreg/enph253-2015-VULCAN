@@ -37,6 +37,11 @@
         <p>Our robot, like all other robots in the ENPH253 course, was run using a TINAH board. This board is a custom shield for a Wiring I/O board, designed specifically for ENPH253. It acts as a protective buffer for the board's inputs and outputs, as well as providing control outputs for 4 motors and 3 servos and an LCD screen. This board is programmed using the same interface as an Arduino board, using the C++ language.</p>
         <p>Information about the TINAH board can be found at <a href="http://projectlab.engphys.ubc.ca/enph-253-2015/tinah-2015/">the ENPH253 website.</a></p>
       </div>
+      <h1>Programming and Algorithms</h1>
+      <div class="body-text">
+        <p>The robot was controlled by a state machine. It was written in such a way that changes in strategy would be fairly easy, by abstracting out the main robot functions.</p>
+        <p>PID control was heavily used in the robot: it controlled tape following, IR following, and arm movements. We also quickly found how important noise reduction was: aside from the usual circuit changes to accommodate this, we also did some noise reduction (primarily debouncing) in code. There were also algorithms to actually perform a pet pickup, perform hardcoded driving motions using wheel encoders, and search for tape after losing it. </p>
+      </div>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/gzgreg/enph253-2015-VULCAN">Enph253-2015-vulcan</a> is maintained by <a href="https://github.com/gzgreg">gzgreg</a>.</span>
 
