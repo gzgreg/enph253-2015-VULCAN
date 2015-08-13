@@ -48,10 +48,12 @@
 
 img.left {
 	float: left;
+	padding-right: 1rem;
 }
 
 img.right {
 	float: right;
+	padding-left: 1rem;
 }
 
 .site-footer {
