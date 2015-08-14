@@ -35,38 +35,39 @@
     </section>
 
     <section class="main-content">
-		<img src="img/Solidworks%20Pictures/Full%20robot%20Render%201.JPG" class="center" style="width: 1000px;">
-		<figcaption>Solidworks Rendering of the final robot </figcaption>
-        <p><a href="https://github.com/gzgreg/enph253-2015-VULCAN/tree/master/Solidworks%20Parts">Soldiworks Parts are available on GitHub here.</a></p>
-        <h1>Arm</h1>
-        <div class="body-text">
-            <img src="img/Solidworks%20Pictures/Arm%20render.JPG" class="right" style="width: 300px;">
-			
-            <p>The arm is the most complicated mechanical system on our robot. Rather than using multiple simple arms to rescue the stuffed animals, we wanted 
-			to make a single arm with more versatility. This meant building an arm with 3 degrees of freedom, one about a vertical axis and two about horizontal axes.
-			The vertical axis rotation was enabled by mounting the arm on a lazy susan bearing and rotating it with a motor attached to the base mount turning the arm using
-			an internal spur gear. A potentiometer encoded the rotation allowing the microcontroller to manipulate it's position with PID control. The second motion rotated
-			the first joint of the arm using a worm gear powered by another DC motor through a gear assembly and again encoded using a potentiometer. The third motion moved 
-			the end of up and down using an RC servo motor. This was simpler to use as it did not require PID control, only an analog angle signal. The end of the arm had a 
-			pickup mechanism mounted to it to pick up the stuffed animals by way of the rare earth magnets mounted on top of them. This used a steel plate with an aluminum 
-			plate hanging freely underneath, when the mechanism came into contact with a magnet it would push the aluminum plate into the steel plate and activate a microswitch.
-			small RC servos could then push the aluminum plate back to release the magnet.</p>
-			<img src="img/Solidworks%20Pictures/arm%20render%202.JPG" class="right" style="width: 300px;">			
-			<img src="img/James'%20phone%20pics/IMG_20150731_162217815.jpg" class="right" style="width: 300px;">
-        </div>
-		<h2>Chassis and Drive Train</h2>
-		<div class="body-text">
-			<img src="img/Solidworks%20Pictures/Chassis%20and%20drive%20train%20from%20bottom.JPG" class="right" style="width: 300px;">
-			<p>The Chassis was waterjet cut out of a single piece of steel and spot-welded at the seams. The wheels were driven using bicycle chain connecting to a geared DC motor.
-			motor was mounted on the inside of the chassis with its mounting screws in slots that allowed the bicycle chained to be tensioned.</p> 
-		</div>
-		<h3>Sensors</h3>
-		<div class="body-text">
-			<p>Our robot used 4 QRD IR Reflectance sensors for tape following and to detect tape markings. Two more reflectance sensors where used as wheel encoders to measure the distance
-			each wheel turned, allowing us to make hardcoded manuevers and determine positions. The robot also had 2 QSD IR sensors that allowed the robot to detect the signal from the IR
-			beacon at the end of the course. Additionally the robot had a microswitch sensor at the end of the arm to detect pet pickup as well as a microswitch mounted in front to detect
-			collisions.</p> 
-		</div>
+  		<img src="img/Solidworks%20Pictures/Full%20robot%20Render%201.JPG" class="center" style="width: 1000px;">
+  		<figcaption>Solidworks Rendering of the final robot </figcaption>
+      <p><a href="https://github.com/gzgreg/enph253-2015-VULCAN/tree/master/Solidworks%20Parts">Soldiworks Parts are available on GitHub here.</a></p>
+      <h1>Arm</h1>
+      <div class="body-text">
+        <img src="img/Solidworks%20Pictures/Arm%20render.JPG" class="right" style="width: 300px;">
+    		<img src="img/Solidworks%20Pictures/arm%20render%202.JPG" class="right" style="width: 300px;">    
+        <p>The arm is the most complicated mechanical system on our robot. Rather than using multiple simple arms to rescue the stuffed animals, we wanted 
+          to make a single arm with more versatility. This meant building an arm with 3 degrees of freedom, one about a vertical axis and two about horizontal axes.</p>
+        <p>The vertical axis rotation was enabled by mounting the arm on a lazy susan bearing and rotating it with a motor attached to the base mount turning the arm using
+          an internal spur gear. A potentiometer encoded the rotation allowing the microcontroller to manipulate it's position with PID control. The second motion rotated
+          the first joint of the arm using a worm gear powered by another DC motor through a gear assembly and again encoded using a potentiometer. The third motion moved 
+          the end of up and down using an RC servo motor. This was simpler to use as it did not require PID control, only an analog angle signal.</p>
+        <p>The end of the arm had a 
+          pickup mechanism mounted to it to pick up the stuffed animals by way of the rare earth magnets mounted on top of them. This used a steel plate with an aluminum 
+          plate hanging freely underneath, when the mechanism came into contact with a magnet it would push the aluminum plate into the steel plate and activate a microswitch.
+          small RC servos could then push the aluminum plate back to release the magnet.</p>
+				
+  			<img src="img/James'%20phone%20pics/IMG_20150731_162217815.jpg" class="right" style="width: 300px;">
+      </div>
+		  <h2>Chassis and Drive Train</h2>
+		  <div class="body-text">
+			 <img src="img/Solidworks%20Pictures/Chassis%20and%20drive%20train%20from%20bottom.JPG" class="right" style="width: 300px;">
+			 <p>The Chassis was waterjet cut out of a single piece of steel and spot-welded at the seams. The wheels were driven using bicycle chain connecting to a geared DC motor.
+        motor was mounted on the inside of the chassis with its mounting screws in slots that allowed the bicycle chained to be tensioned.</p> 
+		  </div>
+		  <h3>Sensors</h3>
+		  <div class="body-text">
+			 <p>Our robot used 4 QRD IR Reflectance sensors for tape following and to detect tape markings. Two more reflectance sensors where used as wheel encoders to measure the distance
+        each wheel turned, allowing us to make hardcoded manuevers and determine positions. The robot also had 2 QSD IR sensors that allowed the robot to detect the signal from the IR
+        beacon at the end of the course. Additionally the robot had a microswitch sensor at the end of the arm to detect pet pickup as well as a microswitch mounted in front to detect
+        collisions.</p> 
+		  </div>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/gzgreg/enph253-2015-VULCAN">Enph253-2015-vulcan</a> is maintained by <a href="https://github.com/gzgreg">gzgreg</a>.</span>
